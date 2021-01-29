@@ -1,0 +1,33 @@
+.projects{
+    width: 100vw;
+    min-height: 80vh;
+    background-color: black;
+}
+
+.projects_container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h1{
+    font-size: 98px;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .projects_container{
+        flex-direction: column;
+    }
+
+    .projects h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+        -webkit-text-stroke: 1px white;
+    }
+}

@@ -1,0 +1,149 @@
+.navbar{
+    width: 100vw;
+    height: 80px;
+    background-color: #000;
+    position: sticky; 
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.navbar_container{  
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar_logo{
+    height: 100%;
+    min-width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_logo img{
+    width: 80px;
+    height: 70px;
+}
+
+.nav_menu{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_items {
+    height: 60%;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav_items:hover{
+    cursor: pointer;
+}
+
+.nav-links{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.menu_icon {
+    display: none;
+}
+
+@media screen and (max-width: 968px){
+    .NavbarItems {
+        position: relative;
+    }
+
+    .navbar_container{
+        width: 100vw;
+    }
+
+    .navbar_logo{
+        margin-left: 15px;
+    }
+
+    .navbar_logo img{
+        width: 60px;
+        height: 50px;
+    }
+    .nav_menu {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 0vw;
+        height: 100vh;
+        position: absolute;
+        top: 80px;
+        transform: translateX(0);
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+        
+    .nav_menu.active {
+        display: block;
+        background: #000000;
+        width: 100vw;
+        height: 100vh;
+        transform: translateX(0);
+        top: 80px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav_items{
+        height: 100px;
+        width: 100%;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        color: #ffffff;
+    }
+
+    .nav-links:hover {
+        background-color:#FF4654;
+        color: #ffffff;
+        border-radius: 0;
+    }
+
+
+    .fa-times {
+        color:white;
+        font-size: 2rem;
+    }
+
+    .menu_icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 50%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+}

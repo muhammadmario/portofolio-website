@@ -1,0 +1,106 @@
+.about{
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.about h1{
+    font-size: 98px;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_container .card{
+    background: rgb(238,196,118);
+    background: linear-gradient(90deg, rgba(238,196,118,1) 0%, rgba(248,214,149,1) 35%, rgba(245,222,179,1) 100%);
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_container .card .photo{
+    width: 35%;
+    height: 100%;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.about_container .card .deskripsi{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.deskripsi p{
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px){
+
+    .about h1{
+        font-size: 45px;
+        -webkit-text-stroke: 1px white;
+        -webkit-text-fill-color: transparent;
+    }
+    .card{
+        background-color: wheat;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .card .photo{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .photo img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .about_container .card .deskripsi{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 10px;
+    }
+    
+    .deskripsi p{
+        color: black;
+        font-weight: 700;
+        font-size: 15px;
+    }
+}

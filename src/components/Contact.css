@@ -1,0 +1,143 @@
+.contact{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.map{
+    width: 50%;
+    height: 100%;
+}
+
+.contact-us{
+    width: 50%;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+/* form */
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.form > h1{
+    font-size: 50px;
+}
+
+.form > span {
+    margin-bottom: 30px;
+}
+
+.form > input, textarea {
+    padding: 20px;
+    border-radius: 3px;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    /* border: none; */
+    background: #fff;
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+    border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+    height: 150px;
+    max-width: 700px;
+    min-height: 100px;
+}
+
+.form > label {
+    padding-bottom: 10px;
+    color: rgb(0, 0, 32);
+    font-weight: bold;
+}
+
+.form > button {
+    padding: 20px;
+    border: none;
+    background-color: rgb(2, 2, 110);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+.form > button:hover {
+    background-color: rgb(0, 0, 196);
+}
+
+
+@media screen and (max-width: 768px){
+    .contact{
+        flex-direction: column;
+    }
+    
+
+    .map{
+        width: 100%;
+        height: 40%;
+        z-index: 1;
+    }
+    
+    .contact-us{
+        width: 100%;
+        height: 800px;
+        background-color: blanchedalmond;
+        position: relative;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .form{
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .form > h1{
+        font-size: 35px;
+    }
+
+    .form > input, textarea{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .form > textarea{
+        height: 100px;
+    }
+
+    .form > label {
+        padding-bottom: 5px;
+    }
+
+    .form > span {
+        margin-bottom: 10px;
+    }
+
+    .form > button {
+        padding: 10px;
+    }
+}
