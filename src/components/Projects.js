@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "./Project";
 import "./Projects.css";
-import valorant from "../image/valorant.PNG";
-import pwaprojct from "../image/pwa.PNG";
-import netflix from "../image/netflix.PNG";
-import movieku from "../image/movieku.PNG";
-import news from "../image/newsaggregator.PNG";
+import valorant from "../image/valorant.jpg";
+import pwaprojct from "../image/pwa.jpg";
+import netflix from "../image/netflix.jpg";
+import movieku from "../image/movieku.jpg";
+import news from "../image/newsaggregator.jpg";
 
 function Projects() {
   return (

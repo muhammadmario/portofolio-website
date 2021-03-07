@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from "react-scroll";
 import './Navbar.css'
 import { motion } from 'framer-motion'
-import marioIcon from '../image/mario-icon.png'
+import marioIcon from '../image/mario-icon.jpg'
 
 
 function Navbar() {
