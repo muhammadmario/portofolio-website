@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-import hero from "../image/photo.jpg";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -69,11 +68,11 @@ function Hero() {
                 <span>R</span>
                 <span>I</span>
                 <span>O.</span>
-                <br />{" "}
+                <br />
                 <span className="word-frontend">
                   FRONTEND
                   <br />
-                </span>{" "}
+                </span>
                 DEVELOPER
               </p>
             </Tilt>
@@ -92,7 +91,7 @@ function Hero() {
             initial="hidden"
             animate="visible"
           >
-            <img src={hero} alt="photo" />
+            {/* <img src={hero} alt="profile" /> */}
           </motion.div>
         </motion.div>
       </div>

@@ -1,8 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import "./Projects.css";
-import valorant from "../image/valorant.jpg";
-import pwaprojct from "../image/pwa.jpg";
+import ikanhias from "../image/ikanhias.png";
 import netflix from "../image/netflix.jpg";
 import movieku from "../image/movieku.jpg";
 import news from "../image/newsaggregator.jpg";
@@ -15,27 +14,23 @@ function Projects() {
         <Project
           url="https://movieku.netlify.app/"
           pct={movieku}
-          desk="Web valorant adalah web penyedia informasi mengenai game valorant, mulai dari agent, skill agents, senjata, dan map!"
           title="Movieku"
         />
 
         <Project
-          url="https://github.com/muhammadmario/NewsAggregator"
+          url="https://github.com/muhammadmario/NewsAggregator/"
           pct={news}
-          desk="Web valorant adalah web penyedia informasi mengenai game valorant, mulai dari agent, skill agents, senjata, dan map!"
-          title="NewsAggregator (mobile)"
+          title="NewsAggregator"
         />
         <Project
           url="https://netflix-clone-ddac7.firebaseapp.com/"
           pct={netflix}
-          desk="Netflix clone adalah sebuah website yang dibuat menyerupai tampilan netflix original."
           title="Netflix Clone"
         />
         <Project
-          url="https://footballfo-f68f6.web.app/"
-          pct={pwaprojct}
-          desk="Pwa Football adalah sebuah website penyedia informasi liga bola inggris, club, standings liga dan menambah daftar klub favorite!"
-          title="Pwa Football"
+          url="https://apik-mm2.netlify.app/"
+          pct={ikanhias}
+          title="Ikan Hias"
         />
       </div>
     </div>

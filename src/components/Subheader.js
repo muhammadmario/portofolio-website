@@ -40,7 +40,7 @@ function Subheader() {
           </p>
         </div>
         <div className="image-coding">
-          <img data-aos="zoom-in" src={codingImage} alt="image" />
+          <img data-aos="zoom-in" src={codingImage} alt="coding" />
         </div>
         <div data-aos="fade-right" class="title-2">
           <p>
@@ -52,7 +52,6 @@ function Subheader() {
               className="word-react"
               data-aos="zoom-in"
             >
-              {" "}
               REACT JS
             </motion.span>
           </p>

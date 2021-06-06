@@ -32,83 +32,25 @@
 .project .desk a {
   text-decoration: none;
 }
-/* .project{
-    width: 300px;
-    height: 100px;
-    background-color: black;
-    position: relative;
-    padding: 20px 15px;
-    margin: 30px 10px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: 1s ease-in-out;
-    background-color: blanchedalmond;
+@media screen and (max-width: 768px) {
+  .project {
+    width: 80%;
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.75);
+  }
+
+  .project .desk a {
+    font-size: 0.8rem;
+  }
 }
 
-.project:hover{
-    height: 230px;
+@media screen and (max-width: 378px) {
+  .project .desk a {
+    font-size: 0.6rem;
+  }
+
+  .project .desk h2 {
+    font-size: 1.2rem;
+  }
 }
-
-.project .pict{
-    position: relative;
-    width: 260px;
-    height: 260px;
-    top: -60px;
-    left: 20px;
-}
-
-.project .pict img{
-    z-index: 1;
-    max-width: 100%;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
-}  
-
-.project .desk{
-    position: relative;
-    margin-top: -140px;
-    padding: 10px 15px;
-    text-align: center;
-    color: black;
-    visibility: hidden;
-    opacity: 0; 
-    transition: 0.3s ease-in-out;
-    text-align: justify;
-}
-
-.project:hover .desk{
-    visibility: visible;
-    opacity: 1;
-    margin-top: -70px;
-    transition-delay: 0.8s;
-}
-
-.project .desk{
-    padding: 10px;
-    text-align: center;
-}
-
-.project .desk h2{
-    font-size: 20px;
-    font-weight: 700;
-    color: black;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.project .desk p{
-    text-align: justify;
-}
-
-.project .desk a{
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    color:#c8c102;
-}
-
- */

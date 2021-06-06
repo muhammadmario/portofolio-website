@@ -12,14 +12,20 @@ function Footer() {
 
         <div class="footer-social">
           <span>Connect with us</span>
-          <i class="fab fa-github-square"></i>
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-instagram-square"></i>
+          <a href="https://github.com/muhammadmario">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a href="https://www.facebook.com/mario.baron.520">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/mariobaron_/">
+            <i class="fab fa-instagram-square"></i>
+          </a>
         </div>
 
         <div class="footer-copyright">
           <p>
-            <i class="far fa-copyright"></i>Mario 2020, Build with ❤{" "}
+            <i class="far fa-copyright"></i>Mario 2020, Build with ❤
           </p>
         </div>
       </div>
